@@ -1,0 +1,26 @@
+.Todo{
+    border: 2px solid black;
+    margin : 5px;
+    padding : 10px;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  li button {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 5px ; 
+    cursor: pointer;
+  }
+  
+  li button:hover {
+    background-color: #d32f2f;
+  }
